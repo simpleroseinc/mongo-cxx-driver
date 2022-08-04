@@ -248,12 +248,12 @@ add_custom_target(doxygen-deploy
     VERBATIM
 )
 
-add_custom_target(format
+add_custom_target(format-mongo-cxx
     python ${CMAKE_SOURCE_DIR}/etc/clang_format.py format
     VERBATIM
 )
 
-add_custom_target(format-lint
+add_custom_target(format-lint-mongo-cxx
     python ${CMAKE_SOURCE_DIR}/etc/clang_format.py lint
     VERBATIM
 )
